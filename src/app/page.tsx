@@ -25,6 +25,14 @@ export default function Home() {
       Hello Nono! text-sm
     </h3>
 
+    <h3 className="text-sm mx-auto rounded text-yellow-500 bg-black font-bold underline" >
+      Hello Nono! text-sm
+    </h3>
+
+    <h3 className="text-sm text-yellow-500 bg-black p-5 font-bold underline" >
+      Hello Nono! text-sm
+    </h3>
+
     <p className="w-60 mx-auto mt-5 text-center">
      <span className="font-bold">w-60 mx-auto mt-5 text-center</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est eaque nihil excepturi, at laudantium soluta, fugiat illo totam velit ab mo lestiae! Praesentium eligendi recusandae illum cum dolorem odio? Eveniet, magnam molestias. Placeat, tempore explicabo.
     </p>
