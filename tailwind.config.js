@@ -10,6 +10,8 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: 
+    {sign:["'Cookie', cursive;"]}
   },
   plugins: [],
 }
