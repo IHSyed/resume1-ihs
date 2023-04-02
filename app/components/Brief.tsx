@@ -1,5 +1,5 @@
 import React from 'react'
-//import Image from 'next/image'
+import Image from 'next/image'
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 {/* Md or other abbreviation to be included when importing from React-Icons */}
 
@@ -24,8 +24,8 @@ export const Brief = () => {
         {/* Right Portion Begins Here */}
 
         <div>
-            {/*<Image src= {"/image.jpg"} alt='IH Syed' width={100} height={200} />*/}
-            <img src='/image.jpg' className='md:w-full w-1/2 mx-auto rounded-full' />
+            <Image src= {"/image.jpg"} alt='IH Syed' width={250} height={250} className='md:w-full w-1/2 max-auto rounded-full' />
+            {/*<img src='/image.jpg' className='md:w-full w-1/2 mx-auto rounded-full' />*/}
 
         {/* Right Portion Ends Here */}
         </div>
@@ -33,3 +33,4 @@ export const Brief = () => {
 
   )
 }
+ 

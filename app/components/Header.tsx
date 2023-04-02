@@ -4,6 +4,8 @@
 import {GiHamburgerMenu} from "react-icons/Gi"
 import {RxCross2} from "react-icons/rx"
 import React, {useState} from "react"
+import Link from "next/link"
+import About from "./About"
 
 
 export const Header = () => {
@@ -16,10 +18,14 @@ export const Header = () => {
             <ul className='m-7 md:flex hidden'>
               {/* md:flex hidden will hide the NavBar on Small Screen*/} 
                 <li className='mx-5 text-2xl font-sign hover:scale-150 duration-200 '> Home</li>
-                <li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> About</li>
-                <li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> Experience</li>
-                <li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> Expertise</li>
-                <li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> Contact</li>
+                <li className='mx-5 text-2xl font-sign hover:scale-150 duration-200 '> 
+                <Link href = "./about">
+                  About
+                  </Link>
+                  </li>
+                <Link href={"/experience"}><li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> Experience</li></Link>
+                <Link href={"/expertise>"}><li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> Expertise</li></Link>
+                <Link href={"/contact>"}><li className='mx-5 text-2xl font-sign hover:scale-150 duration-200'> Contact</li></Link>
             </ul>
             <div className='pr-5 md:hidden'
             onClick= {() => {
@@ -40,11 +46,11 @@ export const Header = () => {
 
             {/* Overlay Starts here */}
             {/* Copy the UL from above over here, then give a ClassName to the div under */}
-            <div>
+            {/*<div>
 
 
 
-            </div>
+            </div>*/}
             {/*Overlay Ends Here */}
         </div>
     </section>
