@@ -8,4 +8,8 @@
     h1{
         @apply text-sm sm:text-lg md:text-2xl lg:text-4xl xl:text-8xl ;
     };
+
+    html {
+        @apply scroll-smooth;
+    }
 } 

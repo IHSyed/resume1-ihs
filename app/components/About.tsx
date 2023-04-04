@@ -4,10 +4,10 @@ import Link from 'next/link'
 export default function About() {
   return (
     <div>
-    <div className='flex items-center max-w-4xl mx-auto leading-8 h-screen text-justify | "id=" about'>
-      <div className='text-gray-50 px-10 mt-10'>
+    <div className='flex items-center max-w-4xl mx-auto leading-6 h-screen text-justify' id="about">
+      <div className='px-10 mt-10'>
 
-        <h1 className='text-bold mt-5 mb-5 text-center'> Brief Introduction</h1>
+        <h1 className='text-4xl mt-10 mb-10 text-center bg-sky-300'> Brief Introduction</h1>
 
         <p className='pt-5 mx-40 text-justify '>
         I would like to take this opportunity to introduce myself. 

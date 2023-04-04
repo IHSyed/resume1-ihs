@@ -3,6 +3,8 @@ import { Header } from "./components/Header";
 import { Brief } from "./components/Brief";
 import SocialIcons from "./components/SocialIcons";
 import About from "./components/About";
+import Expertise from "./components/Expertise";
+import Contacts from "./components/Contacts";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       <Brief />
       <SocialIcons />
       <About />
+      <Expertise />
+      <Contacts />
 
       </>
     
